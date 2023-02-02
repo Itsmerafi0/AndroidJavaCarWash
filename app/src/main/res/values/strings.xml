@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sit N Clean</string>
+    <string-array name="category">
+        <item>Small </item>
+        <item>Normal </item>
+        <item>Big </item>
+    </string-array>
+</resources>

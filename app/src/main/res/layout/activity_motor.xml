@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00041C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carwash.com.sitnclean.carwash.Dashboard.Motor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00041C">
+
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Form Order Motor"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/nama"
+            android:drawablePadding="20dp"
+            android:hint="Nama"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+
+        <EditText
+            android:id="@+id/hp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/nohp"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="No WhatsApp"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/date"
+            android:drawablePadding="20dp"
+            android:onClick="openDatePicker"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/time"
+            android:drawablePadding="20dp"
+            android:onClick="openTimePicker"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ourspin"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Pemesanan"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pemesanan"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ourspin"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="*Maksimal pemesanan untuk 3 kenderaan. Jika hanya ada 1 kendaraan. silahkan 2 kolom lagi tetap stay pada bagian -Pilih Jasa-"
+            android:textColor="#ff0000"/>
+
+        <Spinner
+            android:id="@+id/ourservice"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pemesanan"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <Spinner
+            android:id="@+id/harga"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pemesanan"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:hint="Category"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <Spinner
+            android:id="@+id/ourservice1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ourservice"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <Spinner
+            android:id="@+id/harga1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:hint="Category"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <Spinner
+            android:id="@+id/ourservice2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ourservice1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <Spinner
+            android:id="@+id/harga2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga1"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:hint="Category"
+            android:textColor="@android:color/white"
+            android:textSize="50dp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ourservice2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/lokasi"
+            android:drawablePadding="20dp"
+            android:hint="Customer Address"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="VEHICLE INFORMATION"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/plat"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/information"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/plat"
+            android:drawablePadding="20dp"
+            android:hint="Lincese Plate"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <TextView
+            android:id="@+id/oth"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plat"
+            android:layout_marginStart="10dp"
+            android:text="* Tolong cantumkan nama motor pada bagian OTHER INFORMATION!"
+            android:textColor="#ff0000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/othinformation"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oth"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/info"
+            android:drawablePadding="20dp"
+            android:hint="Other Information"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <TextView
+            android:id="@+id/total1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/othinformation"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="TOTAL Harga"
+            android:paddingTop="20dp"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/othinformation"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ordermotor"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/total"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawablePadding="20dp"
+            android:hint="Order"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menunggu"/>
+
+    </RelativeLayout>
+
+</ScrollView>

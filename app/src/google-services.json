@@ -1,0 +1,172 @@
+{
+  "project_info": {
+    "project_number": "836330690906",
+    "firebase_url": "https://carwashdatabase-default-rtdb.firebaseio.com",
+    "project_id": "carwashdatabase",
+    "storage_bucket": "carwashdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836330690906:android:cba649214c6fd0c7403b63",
+        "android_client_info": {
+          "package_name": "com.azhar.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836330690906-c3q5f3gsdpg4afl0mth8tj6ocgs4ahru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azhar.firebasecrud",
+            "certificate_hash": "691eca7344b84334016be488c8820e1f796570e3"
+          }
+        },
+        {
+          "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAH8rKOUjkEtK8IzjT8WbXytgrUSn5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836330690906:android:c5cd73a4ac33a3b4403b63",
+        "android_client_info": {
+          "package_name": "com.example.carwash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAH8rKOUjkEtK8IzjT8WbXytgrUSn5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836330690906:android:f9d32dac9a62d4b0403b63",
+        "android_client_info": {
+          "package_name": "com.example.loginusername"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAH8rKOUjkEtK8IzjT8WbXytgrUSn5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836330690906:android:d5d9e30ddeef59c2403b63",
+        "android_client_info": {
+          "package_name": "com.example.realtimerecyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAH8rKOUjkEtK8IzjT8WbXytgrUSn5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836330690906:android:53c81cd3193f8716403b63",
+        "android_client_info": {
+          "package_name": "com.sitnclean.carwash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836330690906-qp9raqua2gsf41bhdc8fvuhlod80884b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sitnclean.carwash",
+            "certificate_hash": "691eca7344b84334016be488c8820e1f796570e3"
+          }
+        },
+        {
+          "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAH8rKOUjkEtK8IzjT8WbXytgrUSn5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836330690906-fpp9alvd1ok54v18dua4e9o8rik8i271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

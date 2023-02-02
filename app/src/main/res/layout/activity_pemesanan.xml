@@ -1,0 +1,497 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/kategorimotor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Category Motor (4)"
+            android:textColor="#03082b"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/smallmotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kategorimotor">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/cv1" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/motoricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"
+                android:text="Size Small"
+                android:textColor="#d703082b"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="50dp"
+                android:text="Kurang dari 250cc"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mediummotor"
+            android:layout_below="@id/smallmotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv2" />
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="37dp"
+                android:src="@drawable/motoricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="107dp"
+                android:layout_marginTop="12dp"
+                android:text="Size Medium"
+                android:textColor="#d703084b"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="107dp"
+                android:layout_marginTop="42dp"
+                android:text=" 252cc - 750cc"
+                android:textColor="#6003084b"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bigmotor"
+            android:layout_below="@id/mediummotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv3" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/motoricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Size Big"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="751cc - >1000cc"
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/exoticmotor"
+            android:layout_below="@+id/bigmotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv4" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/motoricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Size Exotic"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="Kendaraan exotic merupakan kendaraan yang diminta untuk melakukan treatment khusus seperti kendaraan modifikasi kontes dan kendaraan importir umum (rare bike)"
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/kategorimobil"
+            android:layout_below="@+id/exoticmotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:text="Category Mobil (4)"
+                android:textColor="#03083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/smallmobil"
+            android:layout_below="@+id/kategorimobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv1" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/caricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="21dp"
+                android:text="Size Small"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="51dp"
+                android:text="Sedan Kecil, Agya, Ayla, Brio, Etios, Yaris, Jazz, Sirion, Raze, Rocky, dsb"
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mediummobil"
+            android:layout_below="@+id/smallmobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv2" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/caricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Size Medium"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="Sedan Besar, Avanza, Xenia, Rush, Terios, Mobilio, Ertiga, Xpander, dsb"
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bigmobil"
+            android:layout_below="@+id/mediummobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv3" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/caricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Size Big"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="Pajero, Fortuner, Captiva, Rubicon, 5x4 Car, dsb"
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/exoticmobil"
+            android:layout_below="@+id/bigmobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv4" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/caricon" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Size Exotic"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="Kendaraan exotic merupakan kendaraan yang diminta untuk dilakukan treatment khusus seperti kendaraan modifikasi kontes dan kendaraan importir umum (rare car)."
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/kategoriwarna"
+            android:layout_below="@+id/exoticmobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:text="Color (2)"
+                android:textColor="#03083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/metallic"
+            android:layout_below="@+id/kategoriwarna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv1" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="21dp"
+                android:text="Metallic"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="51dp"
+                android:text="Warna metallic merupakan warna standard yang umum digunakan pada mobil pabrikan."
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/matte"
+            android:layout_below="@+id/metallic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="381dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/cv2" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="11dp"
+                android:text="Matte"
+                android:textColor="#d703083b"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="41dp"
+                android:text="Warna matte diartikan warna yang kedap dan tidak memantulkan cahaya. Beritahu Kami apabila warna tersebut merupakan sticker pada kolom OTHER INFORMATION."
+                android:textColor="#6003083b"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/syaratdanketentuan"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/matte"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SYARAT DAN KETENTUAN"
+            android:background="@color/black"/>
+
+    </RelativeLayout>
+</ScrollView>

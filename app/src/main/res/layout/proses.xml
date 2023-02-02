@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.carwash.com.sitnclean.carwash.History.ProsesMobil">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Transaksi"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/menunggu"
+        android:background="#fff"
+        android:text="Menunggu"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        app:srcCompat="@color/white" />
+
+    <Button
+        android:id="@+id/semua"
+        android:background="#fff"
+        android:text="Semua Pesanan"
+        android:textColor="@color/black"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/proses"
+        android:textColor="#880808"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Proses"
+        android:background="@color/white"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/menunggu"
+        app:layout_constraintEnd_toStartOf="@+id/selesai"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/menunggu"
+        app:layout_constraintTop_toTopOf="@+id/menunggu"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/white"/>
+
+    <Button
+        android:id="@+id/selesai"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="Selesai"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/proses"
+        app:layout_constraintStart_toEndOf="@+id/proses"
+        app:layout_constraintTop_toTopOf="@+id/proses"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:srcCompat="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="120dp"
+        android:id="@+id/userList"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

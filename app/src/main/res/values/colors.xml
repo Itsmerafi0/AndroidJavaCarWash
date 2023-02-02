@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+    <color name="colorTextHint">#808080</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorLayerSemi">#60000000</color>
+    <color name="colorLayerDark">#D6000000</color>
+    <color name="SecondaryColor">#30ffffff</color>
+    <color name="colorPrimary">#00041C</color>
+    <color name="colorPrimaryDark">#FAC110</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorBlack">#121111</color>
+    <color name="colorGrey">#676060</color>
+</resources>
